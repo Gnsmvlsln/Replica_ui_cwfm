@@ -1,0 +1,548 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+#wrapper.toggled #menu-toggle2 {
+  display:none;
+  line-height: 40px;
+}
+
+#wrapper #menu-toggle2 {
+  width:100%; 
+  display:block;
+  color: #999999;
+  background-color:#333;
+  height:100%;
+  padding-left:0.3em;
+  line-height: 40px;
+}
+
+#wrapper #menu-toggle2:hover {
+  color: #fff;
+  background: none;
+}
+
+.sidebar-brand {
+  background-color:#000;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 20px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #474747;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+  margin-left:50px;
+  
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 223px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color:whitesmoke;
+  font-size:13px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+}
+
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  /* height: 65px; */
+  font-size: 12px;
+  /* line-height: 60px; */
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0px;
+  }
+  #wrapper.toggled {
+    padding-left: 222px;
+  }
+  #sidebar-wrapper {
+    width: 60px;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 223px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-left: 0;
+    width: 1164px;
+  }
+}
+#header
+{
+  background-color: #dd4b39;
+  height:48px;
+  margin-top:-20px;
+  margin-left:-19px;
+  position:fixed;
+  width:1298px;
+}
+#dashboard
+{
+  background-color:#222d32;
+  height:44px;
+  width:1298px;
+  margin-top:28px;
+  margin-left:-19px;
+  position: fixed;
+}
+#workforce{
+  text-decoration: none; 
+  color:whitesmoke;
+  font-size:13px;
+  padding-left:18px;
+  
+}
+#submitt
+{
+  padding-top:24px;
+  background-color: #eee;
+  margin-left: -404px;
+  position: relative;
+}
+#btn
+{
+  background-color: #f7a35c;
+  margin-bottom: 25px;
+  margin-left: 1018px;
+  color:white;
+  width:80px;
+  height:35px;
+  border: 1px solid #f7a35c;
+  border-radius:3px;
+  font-size:13px;
+  position: relative;
+}
+#dash
+{
+  margin-top:2px;
+  color:white;
+  text-decoration: none;
+  padding-left:1030px;
+  font-size:13px;
+}
+#shyam
+{
+  text-decoration: none; 
+  color:whitesmoke;
+  font-size:13px;
+  padding-left:681px;
+}
+#bluebar
+{
+  height:48px;
+  background-color: #1e4056;
+  margin-top:82px;
+  margin-left:-19px;
+  border-radius:2px 2px 0px 0px;
+}
+#bluename{
+  background-color: #00a7d0;
+  height:135px;
+  width:298px;
+  margin-top:20px;
+  border-radius: 8px 8px 8px 8px;
+  display: inline-block;
+}
+.contain
+{
+  margin-top:12px;
+  border:2px solid #ccc; 
+  border-top:3px solid #00a65a;
+  width:298px; 
+  height: 40px; 
+  /* overflow-y: scroll */
+}
+.contain1
+{
+  margin-left:-2px;
+  margin-top:-32px;
+  border:1px solid #ccc;
+  width:298px; 
+  display: inline-block;
+  height: 120px; 
+  overflow-y: scroll
+}
+.containgoal
+{
+  margin-top: 132px;
+  width: 298px;
+  height: 39px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-top:3px solid #00a65a;
+  
+}
+.containgoal1
+{
+  margin-left:-2px;
+  margin-top:-32px;
+  border:1px solid #ccc;
+  width:298px; 
+  display: inline-block;
+  height: 120px; 
+  overflow-y: scroll
+}
+.forform{
+  /* margin-top: -378px; */
+  /* height:500px; */
+  display: inline-block;
+  margin-left:406px;
+  /* position: relative; */
+
+  
+  float: left;
+  height:500px;
+  width:1009px;
+  margin-top:-481px;
+  /* background-color: #00a7d0; */
+}
+.slidetest
+{
+  /* position: relative; */
+  float:left;
+  width:300px;
+  
+  /* background-color:greenyellow */
+}
+#spans11
+{
+  color:red;
+  font-size: 23px;
+
+}
+#spans1{
+ 
+  padding-left:101px;
+  color:red;
+  font-size: 11px;
+  font-weight: bold;
+}
+#spans2{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans3{
+  color:red;
+  font-size: 11px;
+  padding-left:99px;
+  font-weight: bold;
+
+}
+#spans4{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans5{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans6{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans7{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}#spans8{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans9{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans10{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}#spans11{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans12{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans13{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans14{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans15{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans16{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans17{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans18{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans19{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spans20{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+
+}
+#spandesg{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+}
+#spansgend{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+}
+#spansblood{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+}
+#spanssuper{
+  color:red;
+  font-size: 11px;
+  padding-left:101px;
+  font-weight: bold;
+}
+#sp1{
+  margin-top:18px;
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp2{
+  margin-top:18px;
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp3{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp4{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp5{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp6{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp7{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp8{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#sp9{
+  margin-top:20px; 
+  margin-left:12px ; 
+  color:#dd4b39;
+}
+#imgid{
+  height:48px; 
+  width:222px; 
+  margin-left:-19px
+}
+#a1{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a2{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a3{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a4{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a5{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a6{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a7{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a8{
+  margin-top:5px; 
+  margin-left:0px
+}
+#a9{
+  margin-top:5px; 
+  margin-left:0px
+}
+#spans1star{
+  color:red; 
+  font-size: 20px;
+  font-weight: bold;
+
+}
